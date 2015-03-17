@@ -1,8 +1,9 @@
 {
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --timeout 10000"
   },
   "devDependencies": {
-    "mocha": "^2.2.1"
+    "mocha": "^2.2.1",
+    "selenium-webdriver": "^2.45.1"
   }
 }
