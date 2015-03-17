@@ -1,4 +1,10 @@
 language: node_js
+addons:
+  sauce_connect: true
+env:
+  global:
+    - secure: L/aGHl+XZ2tyeZ0xZTkKPySfsVZxkQt9Y3naN0icMu8DoXP83eUQ/gKooEKP0i0XTvwslCGa808UyZ99mWAdZ/WBA23i7q3fCLHwMcA7EcRsDky8vv6nMu00jTwLEX2ly+3+jc4xZV7ZO7KJNBRBcSD78L2KiMiRUzZ+WFZVrZ0=
+    - secure: T9Ur8o93Bs42r2De53U97oheh/E+P9VDpuRYHUtr5YoxU/n4sALcz3FfyJ6HOcuDctIXb26MvNrzvf9abaxNFf4QapqVlWW6Fj8xHA9x55eRjz4QasyM1nk7gqhlZ2HZuvxqhEcgvfirn7FGb9bIEuBVmFaJtqURp2JwEO4ABdQ=
 before_script:
   - python -m SimpleHTTPServer &
   - sleep 2
